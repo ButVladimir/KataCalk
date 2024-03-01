@@ -12,6 +12,7 @@ public class Main {
         scanner.close();
         return str1;
     }
+    //что - то напечатал
     public static String[] disp (String str1) throws NumberExeption  //Получаем массив с числами для вычисления и операндом
     {   String a="";
         /*int sub=0;
@@ -20,7 +21,7 @@ public class Main {
         int n=0;
         String  strAdd= Arrays.toString(new char[]{'+'});
         String  strMul= Arrays.toString(new char[]{'*'});
-        String del="";
+        String del = "";
         for (int i=0; i< (str1.length()-1); i++) {
             if (str1.charAt(i)=='+') {del=del.concat(strAdd); a="add"; n++;}
             if (str1.charAt(i)=='-') {del=del.concat("-"); a="sub";n++;}
